@@ -49,6 +49,7 @@ per-frame stepping are usually easier in Python.
    (`python scripts/track.py ref.mp4 --log track.json --from F --to F --box ...`). Iterate until it agrees. Keep each strip.
 10. **Words and sound.** Write new copy that fits the measured word and letter timing. Use one idea per line and
     claims the brand can stand behind. Use supplied or licensed music, sound effects, and voiceover as the brief calls for.
+    For edits with sound, use the [Earshot audio checks](references/earshot.md) when the tool is available.
 11. **What is theirs, not the reference's.** Another company's logos, names and people never carry over: a logo slot
     becomes the brand's own words or marks. A wordmark device built on a letter (a bar that is the name's I, a
     slash inside it) is rebuilt on the new name: use a letter it has, else place the device where the reference's
@@ -88,6 +89,7 @@ per-frame stepping are usually easier in Python.
 7. **Levels on the encoded file**, per section, against the reference: black, middle, white within 8 levels,
    saturation within 0.05, grain within a factor of 1.5. Encoding changes grain: measure after it.
 8. **Length and sound.** Same duration and frame count as the reference; audio intact to the last sample.
+   For a sound-led edit, also compare cue timing and levels on the exported file using the audio checks.
 9. **A side-by-side** (reference left, build right, frame counter burnt in) goes out with the film.
 
 ## What goes wrong

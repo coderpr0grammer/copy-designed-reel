@@ -27,4 +27,8 @@ python scripts/track.py reference.mp4 build.mp4 --from 120 --to 140 --box 760,44
 
 The tool reports each word's ink bounds, center, height, and held frames. Add `--dark` for dark type on a light background or `--json` for machine-readable results. Use a tight box when the shot has bright detail near the text.
 
+## Check the audio
+
+The Units anthem also used Earshot by Leon Lin to compare voice takes and measure the opening mix. The [optional audio setup](references/earshot.md) shows how to measure levels, compare takes, and check sound cues against picture cuts. Earshot installs separately from the frame tracker.
+
 Use media you own or are licensed to redistribute for public examples. The skill instructions and tracker are available under the [MIT License](LICENSE).
