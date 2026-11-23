@@ -12,6 +12,8 @@ npx skills add coderpr0grammer/copy-designed-reel -a claude-code -a codex -a cur
 
 Give your agent the reference video, your brand assets or footage, and the intended deliverable. For example, ask it to use `copy-designed-reel` to measure the typography and transitions, build a cut using your assets, and deliver a side-by-side review.
 
+Want to text edits from your phone? [Set up Gorg for Claude Code](https://www.gorg.ai/code) to install Gorg's video tools and editing skills on your Mac and send revisions through iMessage. It requires Claude Code and Homebrew.
+
 ## Run the measurement tool
 
 The tracker needs Python, NumPy, and OpenCV. The wider editing workflow uses FFmpeg to extract frames, encode the film, and create comparison clips. If you build effects in Python, Pillow is useful for laying out and drawing type.
